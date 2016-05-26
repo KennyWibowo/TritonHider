@@ -6,7 +6,7 @@
   "permissions": ["tabs", "*://act.ucsd.edu/*"],
   "content_scripts": [
     {
-      "matches": ["*://*.google.com/*"],
+      "matches": ["*://act.ucsd.edu/*"],
       "js": ["tritonhider.js"]
     }
   ]
