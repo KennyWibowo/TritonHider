@@ -3,5 +3,6 @@ $(document).ready(function() {
 
     for( var i = 0; i < toHide.length; i++ ) {
         $('*:contains("'+ toHide[i] +'")').last().parent().hide();
+        console.log("Hiding...");
     }
 });
