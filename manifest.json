@@ -1,12 +1,13 @@
 {
   "name": "TritonHider",
   "version": "1.0",
+  "manifest_version": 2,
   "description": "Hides the useless links to deprecated pages on TritonLink",
   "permissions": ["tabs", "*://act.ucsd.edu/*"],
   "content_scripts": [
     {
       "matches": ["*://*.google.com/*"],
-      "js": ["hider.js"]
+      "js": ["tritonhider.js"]
     }
   ]
 }
