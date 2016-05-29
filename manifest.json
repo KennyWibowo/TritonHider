@@ -3,9 +3,16 @@
   "version": "1.0",
   "manifest_version": 2,
   "description": "Hides the useless links to deprecated pages on TritonLink",
+  "icons": {
+    "16": "res/icon_16.png",
+    "48": "res/icon_48.png",
+    "128": "res/icon_128.png"
+  },
+  "browser_action": {
+    "default_icon": "res/icon_default.png"
+  },
   "permissions": ["tabs", "*://act.ucsd.edu/*"],
-  "background":
-  {
+  "background": {
         "scripts": ["dependencies/jquery.min.js"]
   },
   "content_scripts": [
