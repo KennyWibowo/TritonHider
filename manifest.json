@@ -11,7 +11,7 @@
   "browser_action": {
     "default_icon": "res/icon_default.png"
   },
-  "permissions": ["tabs", "*://act.ucsd.edu/*"],
+  "permissions": ["tabs", "*://act.ucsd.edu/*", "*://aventeur.ucsd.edu/*"],
   "background": {
         "scripts": ["dependencies/jquery.min.js"]
   },
